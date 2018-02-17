@@ -4,6 +4,8 @@
 //
 $phone: "only screen and (max-width : 500px)";
 
+    body{background: url("../images/bgPattern1.png") repeat;}
+
 .navbar-dark .navbar-nav {
     .nav-link {
         display: block;
@@ -27,6 +29,11 @@ $phone: "only screen and (max-width : 500px)";
 .form {
     width: 300px;
     margin: 40px auto;
+    padding: 20px;
+    background:#E7E4D3;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+       -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 10px 6px -6px #777;
     
     h2.form-signin-heading {
     margin-bottom: 40px;
