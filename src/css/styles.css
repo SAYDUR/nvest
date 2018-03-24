@@ -3842,12 +3842,15 @@ button.close {
   .bs-popover-top .arrow, .bs-popover-auto[x-placement^="top"] .arrow {
     bottom: calc((0.5rem + 1px) * -1); }
   .bs-popover-top .arrow::before, .bs-popover-auto[x-placement^="top"] .arrow::before,
-  .bs-popover-top .arrow::after, .bs-popover-auto[x-placement^="top"] .arrow::after {
+  .bs-popover-top .arrow::after,
+  .bs-popover-auto[x-placement^="top"] .arrow::after {
     border-width: 0.5rem 0.5rem 0; }
   .bs-popover-top .arrow::before, .bs-popover-auto[x-placement^="top"] .arrow::before {
     bottom: 0;
     border-top-color: rgba(0, 0, 0, 0.25); }
-  .bs-popover-top .arrow::after, .bs-popover-auto[x-placement^="top"] .arrow::after {
+  
+  .bs-popover-top .arrow::after,
+  .bs-popover-auto[x-placement^="top"] .arrow::after {
     bottom: 1px;
     border-top-color: #fff; }
 
@@ -3859,12 +3862,15 @@ button.close {
     height: 1rem;
     margin: 0.3rem 0; }
   .bs-popover-right .arrow::before, .bs-popover-auto[x-placement^="right"] .arrow::before,
-  .bs-popover-right .arrow::after, .bs-popover-auto[x-placement^="right"] .arrow::after {
+  .bs-popover-right .arrow::after,
+  .bs-popover-auto[x-placement^="right"] .arrow::after {
     border-width: 0.5rem 0.5rem 0.5rem 0; }
   .bs-popover-right .arrow::before, .bs-popover-auto[x-placement^="right"] .arrow::before {
     left: 0;
     border-right-color: rgba(0, 0, 0, 0.25); }
-  .bs-popover-right .arrow::after, .bs-popover-auto[x-placement^="right"] .arrow::after {
+  
+  .bs-popover-right .arrow::after,
+  .bs-popover-auto[x-placement^="right"] .arrow::after {
     left: 1px;
     border-right-color: #fff; }
 
@@ -3873,12 +3879,15 @@ button.close {
   .bs-popover-bottom .arrow, .bs-popover-auto[x-placement^="bottom"] .arrow {
     top: calc((0.5rem + 1px) * -1); }
   .bs-popover-bottom .arrow::before, .bs-popover-auto[x-placement^="bottom"] .arrow::before,
-  .bs-popover-bottom .arrow::after, .bs-popover-auto[x-placement^="bottom"] .arrow::after {
+  .bs-popover-bottom .arrow::after,
+  .bs-popover-auto[x-placement^="bottom"] .arrow::after {
     border-width: 0 0.5rem 0.5rem 0.5rem; }
   .bs-popover-bottom .arrow::before, .bs-popover-auto[x-placement^="bottom"] .arrow::before {
     top: 0;
     border-bottom-color: rgba(0, 0, 0, 0.25); }
-  .bs-popover-bottom .arrow::after, .bs-popover-auto[x-placement^="bottom"] .arrow::after {
+  
+  .bs-popover-bottom .arrow::after,
+  .bs-popover-auto[x-placement^="bottom"] .arrow::after {
     top: 1px;
     border-bottom-color: #fff; }
   .bs-popover-bottom .popover-header::before, .bs-popover-auto[x-placement^="bottom"] .popover-header::before {
@@ -3899,12 +3908,15 @@ button.close {
     height: 1rem;
     margin: 0.3rem 0; }
   .bs-popover-left .arrow::before, .bs-popover-auto[x-placement^="left"] .arrow::before,
-  .bs-popover-left .arrow::after, .bs-popover-auto[x-placement^="left"] .arrow::after {
+  .bs-popover-left .arrow::after,
+  .bs-popover-auto[x-placement^="left"] .arrow::after {
     border-width: 0.5rem 0 0.5rem 0.5rem; }
   .bs-popover-left .arrow::before, .bs-popover-auto[x-placement^="left"] .arrow::before {
     right: 0;
     border-left-color: rgba(0, 0, 0, 0.25); }
-  .bs-popover-left .arrow::after, .bs-popover-auto[x-placement^="left"] .arrow::after {
+  
+  .bs-popover-left .arrow::after,
+  .bs-popover-auto[x-placement^="left"] .arrow::after {
     right: 1px;
     border-left-color: #fff; }
 
@@ -6025,50 +6037,3 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered th,
   .table-bordered td {
     border: 1px solid #ddd !important; } }
-
-body {
-  background: url("../images/bgPattern1.png") repeat; }
-
-.navbar-dark .navbar-nav .nav-link {
-  display: block;
-  color: rgba(255, 255, 255, 0.95);
-  font-weight: 600;
-  text-shadow: none;
-  text-decoration: none;
-  padding: 8px 10px;
-  font-size: 13px;
-  margin: 0px 0px 0px 5px;
-  border-radius: 2px; }
-
-.navbar-dark .navbar-nav .signup {
-  border: 2px solid white;
-  border-radius: 5px;
-  font-size: 0.9em; }
-
-.form {
-  width: 300px;
-  margin: 40px auto;
-  padding: 20px;
-  background: #E7E4D3;
-  -webkit-box-shadow: 0 10px 6px -6px #777;
-  -moz-box-shadow: 0 10px 6px -6px #777;
-  box-shadow: 0 10px 6px -6px #777; }
-  .form h2.form-signin-heading {
-    margin-bottom: 40px;
-    height: 34px;
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 1.13;
-    text-align: center;
-    color: #007bff; }
-  .form .form-control:focus {
-    box-shadow: none; }
-
-.lostpass {
-  text-align: center; }
-
-.signup-form {
-  width: 500px; }
-  @media only screen and (max-width: 500px) {
-    .signup-form {
-      width: auto; } }
